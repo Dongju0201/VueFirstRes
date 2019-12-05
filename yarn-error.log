@@ -1,0 +1,48 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js run dev
+
+PATH: 
+  c:\windows\system32;c:\windows;c:\windows\system32\wbem;c:\windows\system32\windowspowershell\v1.0\;c:\program files (x86)\nvidia corporation\physx\common;d:\新建文件夹 (2)\100\tools\binn\;d:\s;l共享\100\tools\binn\;d;\sql共享\100\dts\binn\;\;建文件夹 (2)\100\tools\binn\vsshell\common7\ide\;d:\;文件夹 (2)\100\dts\binn\;c:;program files\nvidia corporation\nvidia nvdlisr;c:\program files\microsoft sql server\130\tools\binn\;d:\program files\git\cmd;d:\program files\git\mingw64\bin;d:\program files\git\usr\bin;c:\program files\nvidia corporation\nvidia nvdlisr;C:\Program Files (x86)\MATLAB71\bin\win32;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MATLAB7\bin\win32;D:\Program Files\Git\cmd;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\bin;D:\Adobe 代码编译器\command;;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Bandizip\;C:\Users\Administrator\.dotnet\tools;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\TXEDU\1.4.2.88\bin\TXEDU.exe;C:\Users\Administrator\AppData\Local\Yarn\Data\global;C:\Users\Administrator\AppData\Local\Yarn\bin;C:\Program Files\MongoDB\Server\3.2\bin;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.15.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: D:\第7阶段 张晓飞\VueComponent\package.json: Unexpected token / in JSON at position 193
+      at JSON.parse (<anonymous>)
+      at C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:304:30)
+      at C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "VueComponent",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Doooog <528564553@qq.com>",
+    "license": "MIT",
+    "scripts": {
+      "build":"webpack --mode production",
+      // 默认是生产环境的配置
+      "dev":"webpack-dev-server --mode development"
+      //webpack-dev-server是开发环境的配置
+    },
+    "devDependencies":{
+      "html-webpack-plugin":"^3.2.0",
+      "webpack":"^4.41.2",
+      "webpack-cli":"^3.3.10"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
